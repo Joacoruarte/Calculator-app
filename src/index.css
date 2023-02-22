@@ -1,0 +1,36 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #FFFFFF;
+  font-synthesis: none;
+  color: #FFF;
+}
+
+
+*{
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  background-color: black;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
